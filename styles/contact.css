@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*// Navbar //*/
+a, li {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 23px;
+    letter-spacing: -0.346154px;
+    color: #111111;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 10%;
+    margin: 0px;
+    background-color: none;
+    width: 1109px;
+    height: 23px;
+}
+.logo {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.nav_tabs {
+    list-style: none;
+}
+.nav_tabs li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_tabs a {
+    transition: all 0.3s ease 0s;
+}
+.nav_tabs a:hover {
+    color: #4A4FF2;
+}
+
+/*// Main //*/
+.box-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin-bottom: 5em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-1 {
+    width: 445px;
+}
+h1 {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 55px;
+    color: #111111;
+}
+p {
+    font-family: "Mulish", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #111111;
+}
+
+/*// Form //*/
+form {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Mulish", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-style: normal;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: end;
+    box-sizing: border-box;
+    max-width: 500px;
+    width: 40%;
+    min-height: 300px;
+}
+
+.main-info {
+    text-align: center;
+    font-size: 18px;
+}
+
+input , textarea {
+    min-height: 20px;
+    border-top: 1px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-bottom: 10px;
+    padding-left: 7px;
+    transition: all 0.3s ease 0s;
+}
+.label {
+    transition: all 0.3s ease 0s;
+}
+.label:hover {
+    color: #4A4FF2;
+}
+
+.text-box {
+    width: 100%;
+}
+
+.button {
+    width: 125px;
+    height: 50px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border: none;   
+    background: #4A4FF2;
+    color: white;
+    font-family: "mulish", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s ease 0s;
+}
+.button:hover {
+    background-color: green;
+}
+
+/*// Footer //*/
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 10%;
+    margin: 0px;
+    background-color: none;
+    margin-top: 3em;
+    width: 1109px;
+    height: 23px;
+}
+.bottom {
+    display: inline-flex;
+}
+.icons {
+    list-style: none;
+}
+.icons li {
+    display: inline-block;
+    padding: 0px 20px;
+}
